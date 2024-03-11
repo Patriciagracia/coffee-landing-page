@@ -9,7 +9,7 @@ import earlybirdCoffeeFilter from "./media/earlybird-coffee-filter.jpg";
 
 export default function Catalog() {
   return (
-    <div className="container catalog">
+    <div className="container catalog" id="shop">
       <div className="row">
         <div className="col-6 text-center">
           <img

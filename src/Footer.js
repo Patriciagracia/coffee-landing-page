@@ -4,7 +4,7 @@ import cafe from "./media/cafe.jpg";
 export default function Footer() {
   return (
     <div>
-      <div className="directions">
+      <div className="directions" id="contact">
         <div>
           <p>Cafe</p>
           <p>Ausiàs Marc 151 Barcelona 08013</p>
