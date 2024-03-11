@@ -1,13 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "jquery/dist/jquery.min.js";
+import "popper.js/dist/umd/popper.min.js";
+
+import "./index.css";
+import Hero from "./Hero";
+
+import reportWebVitals from "./reportWebVitals";
+import Catalog from "./Catalog";
+import Subscribe from "./Subscribe";
+import Footer from "./Footer";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Hero />
+    <h1>COFFEE</h1>
+    <p>Free shipping from 35€</p>
+    <Catalog />
+    <Subscribe />
+    <Footer />
   </React.StrictMode>
 );
 
