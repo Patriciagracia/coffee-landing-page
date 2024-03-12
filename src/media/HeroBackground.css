@@ -1,0 +1,15 @@
+@media (min-width: 992px) {
+  #heroImg {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .videoHero {
+    display: none;
+  }
+}
+
+.videoHero {
+  max-width: 100%;
+}
