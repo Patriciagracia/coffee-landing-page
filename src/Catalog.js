@@ -1,5 +1,5 @@
 import React from "react";
-import "./Catalog.css";
+import "./styles/Catalog.css";
 import earlybirdCoffeeDecaf from "./media/earlybird-coffee-decaf.jpg";
 import earlybirdCoffeeEspressoDecaf from "./media/earlybird-coffee-espresso-decaf.jpg";
 import earlybirdCoffeeEspressoMediumRoast from "./media/earlybird-coffee-espresso-medium-roast.jpg";

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./styles/Footer.css";
 import coffees from "./media/coffees.jpg";
 import barista from "./media/barista.jpg";
 import coffeeBeans from "./media/coffee-beans.jpg";

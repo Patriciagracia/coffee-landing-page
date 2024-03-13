@@ -1,5 +1,5 @@
 import React from "react";
-import "./Subscribe.css";
+import "./styles/Subscribe.css";
 
 export default function Subscribe() {
   return (

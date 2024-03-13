@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavBar.css";
+import "./styles/NavBar.css";
 import AnimatedText from "./AnimatedText";
 
 export default function NavBar() {

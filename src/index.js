@@ -6,7 +6,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "jquery/dist/jquery.min.js";
 import "popper.js/dist/umd/popper.min.js";
 
-import "./index.css";
+import "./styles/index.css";
 import Hero from "./Hero";
 
 import reportWebVitals from "./reportWebVitals";

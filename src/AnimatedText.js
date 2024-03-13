@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import "./AnimatedText.css";
+import "./styles/AnimatedText.css";
 
 export default function AnimatedText() {
   return (
