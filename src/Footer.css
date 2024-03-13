@@ -1,6 +1,24 @@
 @media (max-width: 992px) {
   #barista,
-  #coffees {
+  #coffees,
+  #coolcoffee,
+  #icedlatte,
+  #espressocup {
     display: none;
   }
+}
+.directions-media .col {
+  padding: 0;
+}
+#contact {
+  margin-top: 20px;
+  padding: 50px;
+}
+.street {
+  font-size: 30px;
+}
+
+.credits {
+  margin-top: 30px;
+  font-size: 13px;
 }

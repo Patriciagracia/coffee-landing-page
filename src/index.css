@@ -7,18 +7,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media (max-width: 992px) {
+  h1 {
+    font-size: 56px !important;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 h1 {
-  font-size: 66px;
+  font-size: 230px;
   letter-spacing: 1px;
   text-align: center;
 }
 
 p {
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
 }

@@ -23,7 +23,7 @@ export default function Catalog() {
         <div className="col-6 text-center">
           <img
             src={earlybirdCoffeeEspressoDecaf}
-            alt="Earlybird Coffee Decaf"
+            alt="Earlybird Coffee Espresso Decaf"
             className="img-fluid"
           />
           <p>Early Coffee Espresso Decaf</p>
@@ -34,19 +34,15 @@ export default function Catalog() {
         <div className="col-6 text-center">
           <img
             src={earlybirdCoffeeEspressoMediumRoast}
-            alt="Earlybird Coffee Decaf"
+            alt="Espresso Medium Roast"
             className="img-fluid"
           />
-          <p>Hola</p>
+          <p>Espresso Medium Roast</p>
           <button className="add-btn"> Add - 15 €</button>
         </div>
         <div className="col-6 text-center">
-          <img
-            src={earlybirdCoffeeFilter}
-            alt="early bird Coffee Espresso"
-            className="img-fluid"
-          />
-          <p>Hola</p>
+          <img src={earlybirdCoffeeFilter} alt="Filter" className="img-fluid" />
+          <p>Special Filter</p>
           <button className="add-btn"> Add - 15 €</button>
         </div>
       </div>
@@ -54,19 +50,19 @@ export default function Catalog() {
         <div className="col-6 text-center">
           <img
             src={earlybirdCoffeeEspresso}
-            alt="early bird Coffee Espresso"
+            alt="Espresso coffee"
             className="img-fluid"
           />
-          <p>Hola</p>
+          <p>Espresso Coffee </p>
           <button className="add-btn"> Add - 15 €</button>
         </div>
         <div className="col-6 text-center">
           <img
             src={earlybirdCoffeeFilterMediumRoast}
-            alt="early bird Coffee Espresso"
+            alt="Filter Medium Roast"
             className="img-fluid"
           />
-          <p>Hola</p>
+          <p>Filter Medium Roast</p>
           <button className="add-btn"> Add - 15 €</button>
         </div>
       </div>

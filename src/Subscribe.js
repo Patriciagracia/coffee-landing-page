@@ -1,8 +1,9 @@
 import React from "react";
+import "./Subscribe.css";
 
 export default function Subscribe() {
   return (
-    <div className="Subscribe">
+    <div className="subscribe">
       <h2>Subscribe to our newsletter</h2>
       <form>
         <div className="mb-3">

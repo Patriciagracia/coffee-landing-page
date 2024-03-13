@@ -1,0 +1,53 @@
+.subscribe {
+  padding: 80px;
+  background-color: #ee3e3d;
+}
+
+form {
+  max-width: 60%;
+}
+
+input {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0%;
+}
+.form-control::placeholder {
+  color: white;
+}
+
+h2 {
+  text-align: left;
+  color: white;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.form-check-label {
+  color: white;
+  font-size: 12px;
+}
+.btn {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 0px;
+  background-color: white;
+  color: #ee3e3d;
+}
+.btn:hover {
+  color: black;
+}
+
+@media (min-width: 992px) {
+  form {
+    margin: 0 auto;
+  }
+  h2 {
+    margin-left: 20%;
+  }
+}
