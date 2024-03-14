@@ -9,7 +9,7 @@ export default function HeroBackground() {
         src={hero}
         id="heroImg"
         className="img-fluid"
-        alt="photo by Azhar Khairi (Unsplash)"
+        alt="credit: Azhar Khairi (Unsplash)"
       />
       <video className="videoHero" controls autoplay loop>
         <source src={video} type="video/mp4" />

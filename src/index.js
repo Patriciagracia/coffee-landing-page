@@ -18,7 +18,7 @@ root.render(
   <React.StrictMode>
     <Hero />
     <h1>COFFEE</h1>
-    <p>Free shipping from 35€</p>
+    <p id="shipping">Free shipping from 35€</p>
     <Catalog />
     <Subscribe />
     <Footer />

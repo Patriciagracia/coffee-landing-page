@@ -35,20 +35,24 @@ export default function Footer() {
       </div>
       <div className="row directions" id="contact">
         <div className="col-12 col-md-4">
-          <p>Cafe</p>
-          <p className="street">Mediterráneo 92</p>
-          <p className="street">Barcelona 08013</p>
-          <br></br>
-          <p>Mon–Fri 8.30am–5.30pm </p>
-          <p>Sat-Sun 10am–7pm</p>
+          <div className="wrapper">
+            <p>Cafe</p>
+            <p className="street">Mediterráneo 92</p>
+            <p className="street">Barcelona 08013</p>
+            <br></br>
+            <p>Mon–Fri 8.30am–5.30pm </p>
+            <p>Sat-Sun 10am–7pm</p>
+          </div>
         </div>
         <div className="col-12 col-md-4">
-          <p>Roastery</p>
-          <p className="street">Rumi 37</p>
-          <p className="street">Zaragoza 50007</p>
-          <br></br>
-          <p>Mon–Fri 8.30am–5.30pm </p>
-          <p>Sat-Sun 10am–6pm</p>
+          <div className="wrapper">
+            <p>Roastery</p>
+            <p className="street">Rumi 37</p>
+            <p className="street">Zaragoza 50007</p>
+            <br></br>
+            <p>Mon–Fri 8.30am–5.30pm </p>
+            <p>Sat-Sun 10am–6pm</p>
+          </div>
         </div>
         <div className="col-12 col-md-4">
           <p>Store & Cafè</p>

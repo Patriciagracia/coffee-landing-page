@@ -28,7 +28,7 @@ export default function NavBar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#shop">
+              <a className="nav-link" href="#shipping">
                 Shop
               </a>
             </li>

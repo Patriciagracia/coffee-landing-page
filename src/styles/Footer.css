@@ -12,10 +12,16 @@
 }
 #contact {
   margin-top: 20px;
+  margin-bottom: 20px;
   padding: 50px;
 }
 .street {
-  font-size: 30px;
+  font-size: 25px;
+  line-height: 2;
+}
+
+.wrapper {
+  margin-bottom: 70px;
 }
 
 .credits {
