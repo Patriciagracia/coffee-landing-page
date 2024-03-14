@@ -18,7 +18,9 @@ export default function Catalog() {
             className="img-fluid"
           />
           <p>Early Coffee Decaf</p>
-          <button className="add-btn"> Add - 15 €</button>
+          <button type="submit" className="btn btn-primary" id="btn-catalog">
+            Add - 13 €
+          </button>
         </div>
         <div className="col-6 text-center">
           <img
@@ -27,7 +29,9 @@ export default function Catalog() {
             className="img-fluid"
           />
           <p>Early Coffee Espresso Decaf</p>
-          <button className="add-btn"> Add - 15 €</button>
+          <button type="submit" className="btn btn-primary" id="btn-catalog">
+            Add - 13 €
+          </button>{" "}
         </div>
       </div>
       <div className="row">
@@ -38,12 +42,16 @@ export default function Catalog() {
             className="img-fluid"
           />
           <p>Espresso Medium Roast</p>
-          <button className="add-btn"> Add - 15 €</button>
+          <button type="submit" className="btn btn-primary" id="btn-catalog">
+            Add - 15 €
+          </button>
         </div>
         <div className="col-6 text-center">
           <img src={earlybirdCoffeeFilter} alt="Filter" className="img-fluid" />
           <p>Special Filter</p>
-          <button className="add-btn"> Add - 15 €</button>
+          <button type="submit" className="btn btn-primary" id="btn-catalog">
+            Add - 18 €
+          </button>
         </div>
       </div>
       <div className="row">
@@ -54,7 +62,9 @@ export default function Catalog() {
             className="img-fluid"
           />
           <p>Espresso Coffee </p>
-          <button className="add-btn"> Add - 15 €</button>
+          <button type="submit" className="btn btn-primary" id="btn-catalog">
+            Add - 15 €
+          </button>
         </div>
         <div className="col-6 text-center">
           <img
@@ -63,7 +73,9 @@ export default function Catalog() {
             className="img-fluid"
           />
           <p>Filter Medium Roast</p>
-          <button className="add-btn"> Add - 15 €</button>
+          <button type="submit" className="btn btn-primary" id="btn-catalog">
+            Add - 15 €
+          </button>
         </div>
       </div>
     </div>

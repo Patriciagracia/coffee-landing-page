@@ -4,7 +4,7 @@
 }
 
 form {
-  max-width: 60%;
+  max-width: 100%;
 }
 
 input {
@@ -19,6 +19,13 @@ input {
 }
 .form-control::placeholder {
   color: white;
+  opacity: 0.5;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 h2 {
@@ -41,11 +48,14 @@ h2 {
 }
 .btn:hover {
   color: black;
+  background-color: white;
+  border: 1px solid white;
 }
 
 @media (min-width: 992px) {
   form {
     margin: 0 auto;
+    max-width: 60%;
   }
   h2 {
     margin-left: 20%;

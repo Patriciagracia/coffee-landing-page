@@ -1,14 +1,16 @@
-.add-btn {
-  border-radius: 3px;
-  background-color: #ee3e3d;
-  border-color: #ee3e3d;
-  box-shadow: none;
-  color: #e9e6ed;
-  display: inline-block;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
 #shop {
   margin-bottom: 80px;
+}
+
+#btn-catalog {
+  border: 1px solid #ee3e3d;
+  padding: 10px;
+  border-radius: 0px;
+  background-color: #ee3e3d;
+  color: white;
+}
+#btn-catalog:hover {
+  color: #ee3e3d;
+  background-color: #e5e6e8;
+  border: 1px solid #ee3e3d;
 }

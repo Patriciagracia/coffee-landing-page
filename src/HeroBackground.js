@@ -11,7 +11,7 @@ export default function HeroBackground() {
         className="img-fluid"
         alt="credit: Azhar Khairi (Unsplash)"
       />
-      <video className="videoHero" controls autoplay loop>
+      <video className="videoHero" autoPlay loop playsInline muted>
         <source src={video} type="video/mp4" />
       </video>
     </div>
