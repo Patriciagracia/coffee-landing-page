@@ -1,13 +1,19 @@
 #shop {
-  margin-bottom: 80px;
+  margin-bottom: 90px;
+}
+
+#shop p {
+  font-weight: 500;
 }
 
 #btn-catalog {
   border: 1px solid #ee3e3d;
   padding: 10px;
-  border-radius: 0px;
+  border-radius: 7px;
   background-color: #ee3e3d;
   color: white;
+  padding: 10px;
+  width: 100px;
 }
 #btn-catalog:hover {
   color: #ee3e3d;

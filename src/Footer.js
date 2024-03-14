@@ -36,30 +36,46 @@ export default function Footer() {
       <div className="row directions" id="contact">
         <div className="col-12 col-md-4">
           <div className="wrapper">
-            <p>Cafe</p>
-            <p className="street">Mediterráneo 92</p>
-            <p className="street">Barcelona 08013</p>
+            <h5>Café</h5>
+            <p className="street">
+              Mediterráneo 92 <br></br> Barcelona 08013
+            </p>
             <br></br>
             <p>Mon–Fri 8.30am–5.30pm </p>
             <p>Sat-Sun 10am–7pm</p>
+            <button type="submit" className="btn btn-primary" id="btn-maps">
+              View Maps
+            </button>
           </div>
         </div>
         <div className="col-12 col-md-4">
           <div className="wrapper">
-            <p>Roastery</p>
-            <p className="street">Rumi 37</p>
-            <p className="street">Zaragoza 50007</p>
+            <h5>Roastery</h5>
+            <p className="street">
+              Rumi 37 <br></br> Zaragoza 50007
+            </p>
             <br></br>
             <p>Mon–Fri 8.30am–5.30pm </p>
             <p>Sat-Sun 10am–6pm</p>
+            <button type="submit" className="btn btn-primary" id="btn-maps">
+              View Maps
+            </button>
           </div>
         </div>
         <div className="col-12 col-md-4">
-          <p>Store & Cafè</p>
-          <p className="street">Sa Nura 91</p>
-          <p className="street">Ciudadela de Menorca 07760</p>
-          <br></br>
-          <p> Temporarily closed</p>
+          <div className="wrapper">
+            <h5>Store & Café</h5>
+            <p className="street">
+              Sa Nura 91 <br></br> Ciudadela de Menorca 07760
+            </p>
+            <br></br>
+            <p>Mon–Fri 8.30am–5.30pm </p>
+            <p>Sat-Sun 10am–2pm</p>
+            <br></br>
+            <button type="submit" className="btn btn-primary" id="nura-maps">
+              View Maps
+            </button>
+          </div>
         </div>
       </div>
       <div className="directions-media row">
