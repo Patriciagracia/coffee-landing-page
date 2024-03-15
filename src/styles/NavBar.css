@@ -5,3 +5,10 @@
     right: 0;
   }
 }
+a {
+  text-decoration: none;
+  color: #ee3e3d;
+}
+li.nav-item a {
+  color: #ee3e3d;
+}

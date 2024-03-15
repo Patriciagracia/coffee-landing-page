@@ -22,8 +22,8 @@ export default function NavBar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-end">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+            <li className="nav-link">
+              <a className="nav-item" aria-current="page" href="#">
                 Home
               </a>
             </li>

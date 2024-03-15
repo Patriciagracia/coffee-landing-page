@@ -1,5 +1,5 @@
 import React from "react";
-import "./media/HeroBackground.css";
+import "./styles/HeroBackground.css";
 import hero from "./media/hero.jpg";
 import video from "./media/kellymlacy-pexels.mp4";
 export default function HeroBackground() {
