@@ -16,7 +16,7 @@ export default function AnimatedText() {
               "fresh beans, fast delivery!",
               "coffee: because adulting is hard",
               "bean there, done that: shop here!",
-              "life's brew-tiful: get caffeinated.",
+              "life's brew-tiful: get caffeinated",
             ],
           }}
         />
