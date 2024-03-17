@@ -13,8 +13,6 @@ import Subscribe from "./Subscribe";
 import Footer from "./Footer";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-document.title = "Coffee Lading Page";
-
 root.render(
   <React.StrictMode>
     <Hero />

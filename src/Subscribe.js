@@ -3,7 +3,7 @@ import "./styles/Subscribe.css";
 
 export default function Subscribe() {
   return (
-    <div className="subscribe">
+    <div className="subscribe" id="subscribe-section">
       <h2>Subscribe to our newsletter</h2>
       <form>
         <div className="mb-3">

@@ -40,7 +40,6 @@ export default function Footer() {
             <p className="street">
               Mediterráneo 92 <br></br> Barcelona 08013
             </p>
-            <br></br>
             <p>Mon–Fri 8.30am–5.30pm </p>
             <p>Sat-Sun 10am–7pm</p>
             <button type="submit" className="btn btn-primary" id="btn-maps">
@@ -54,7 +53,6 @@ export default function Footer() {
             <p className="street">
               Rumi 37 <br></br> Zaragoza 50007
             </p>
-            <br></br>
             <p>Mon–Fri 8.30am–5.30pm </p>
             <p>Sat-Sun 10am–6pm</p>
             <button type="submit" className="btn btn-primary" id="btn-maps">
@@ -68,11 +66,10 @@ export default function Footer() {
             <p className="street">
               Sa Nura 91 <br></br> Ciudadela de Menorca 07760
             </p>
-            <br></br>
+
             <p>Mon–Fri 8.30am–5.30pm </p>
             <p>Sat-Sun 10am–2pm</p>
-            <br></br>
-            <button type="submit" className="btn btn-primary" id="nura-maps">
+            <button type="submit" className="btn btn-primary" id="btn-maps">
               View Maps
             </button>
           </div>
@@ -101,22 +98,6 @@ export default function Footer() {
           />
         </div>
       </div>
-      <p className="credits">
-        {" "}
-        Developed by{" "}
-        <a href="https://www.linkedin.com/in/patricia-gracia/" target="_blank">
-          Patricia Gracia
-        </a>{" "}
-        {""}
-        with love and lots of coffee. Open-sourced on {""}
-        <a
-          href="https://github.com/Patriciagracia/coffee-landing-page"
-          target="_blank"
-        >
-          Github
-        </a>
-        .
-      </p>
     </div>
   );
 }

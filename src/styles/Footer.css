@@ -51,13 +51,8 @@ h5 {
   margin-right: auto;
   display: block;
 }
-#btn-maps:hover,
-#nura-maps:hover {
+#btn-maps:hover {
   color: white;
   background-color: #ee3e3d;
   border: 1px solid #ee3e3d;
-}
-
-#nura-maps {
-  margin-top: -22px;
 }
