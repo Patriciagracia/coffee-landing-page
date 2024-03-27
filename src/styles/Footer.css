@@ -6,20 +6,27 @@
   #espressocup {
     display: none;
   }
+
+  .row {
+    margin-right: 0;
+  }
 }
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   #coffeeBeans {
     display: none;
   }
 }
+
 .directions-media .col {
   padding: 0;
 }
 #contact {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 50px;
 }
+
 .street {
   font-size: 25px;
   line-height: 2;

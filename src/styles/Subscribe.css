@@ -39,14 +39,15 @@ h2 {
   color: white;
   font-size: 12px;
 }
-.btn {
+#subscribe-btn {
   border: 1px solid white;
   padding: 10px;
   border-radius: 0px;
   background-color: white;
   color: #ee3e3d;
+  align-self: flex-start !important;
 }
-.btn:hover {
+#subscribe-btn:hover {
   color: black;
   background-color: white;
   border: 1px solid white;

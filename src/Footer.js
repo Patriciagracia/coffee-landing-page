@@ -98,6 +98,22 @@ export default function Footer() {
           />
         </div>
       </div>
+      <p className="credits">
+        {" "}
+        Developed by{" "}
+        <a href="https://www.linkedin.com/in/patricia-gracia/" target="_blank">
+          Patricia Gracia
+        </a>{" "}
+        {""}
+        with love and lots of coffee. Open-sourced on {""}
+        <a
+          href="https://github.com/Patriciagracia/coffee-landing-page"
+          target="_blank"
+        >
+          Github
+        </a>
+        .
+      </p>
     </div>
   );
 }

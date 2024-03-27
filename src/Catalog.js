@@ -13,13 +13,13 @@ export default function Catalog() {
       <div className="row">
         <div className="col-6 text-center">
           <img
-            src={earlybirdCoffeeDecaf}
-            alt="Earlybird Coffee Decaf"
+            src={earlybirdCoffeeEspressoMediumRoast}
+            alt="Espresso Medium Roast"
             className="img-fluid"
           />
-          <p>Early Coffee Decaf</p>
+          <p>Espresso Medium Roast</p>
           <button type="submit" className="btn btn-primary" id="btn-catalog">
-            Add - 13 €
+            Add - 15 €
           </button>
         </div>
         <div className="col-6 text-center">
@@ -37,13 +37,13 @@ export default function Catalog() {
       <div className="row">
         <div className="col-6 text-center">
           <img
-            src={earlybirdCoffeeEspressoMediumRoast}
-            alt="Espresso Medium Roast"
+            src={earlybirdCoffeeDecaf}
+            alt="Earlybird Coffee Decaf"
             className="img-fluid"
           />
-          <p>Espresso Medium Roast</p>
+          <p>Early Coffee Decaf</p>
           <button type="submit" className="btn btn-primary" id="btn-catalog">
-            Add - 15 €
+            Add - 13 €
           </button>
         </div>
         <div className="col-6 text-center">

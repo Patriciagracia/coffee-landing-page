@@ -25,7 +25,7 @@ export default function Subscribe() {
             I have read and agree to the terms & conditions.
           </label>
         </div>
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-primary" id="subscribe-btn">
           Subscribe
         </button>
       </form>
