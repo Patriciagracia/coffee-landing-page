@@ -1,21 +1,21 @@
-@media (min-width: 992px) {
-  #heroImg {
+@media (width >= 992px) {
+  #hero-img {
     display: none;
   }
 }
 
-@media (max-width: 992px) {
-  .videoHero {
+@media (width <= 992px) {
+  .video-hero {
     display: none;
   }
 }
 
-.videoHero {
+.video-hero {
   max-width: 100%;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  #heroImg {
+@media only screen and (768px <= width <= 1024px) and (orientation: landscape) {
+  #hero-img {
     display: none;
   }
 }

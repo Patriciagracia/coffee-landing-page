@@ -11,21 +11,21 @@ export default function Footer() {
   return (
     <div>
       <div className="directions-media row">
-        <div className="col" id="coolcoffee">
+        <div className="col" id="cool-coffee">
           <img
             src={coolcoffee}
             alt="Earlybird Coffee Decaf"
             className="img-fluid"
           />
         </div>
-        <div className="col" id="espressocup">
+        <div className="col" id="espresso-cup">
           <img
             src={espressocup}
             alt="Earlybird Coffee Decaf"
             className="img-fluid"
           />
         </div>
-        <div className="col" id="icedlatte">
+        <div className="col" id="iced-latte">
           <img
             src={icedlatte}
             alt="Earlybird Coffee Decaf"
@@ -38,7 +38,7 @@ export default function Footer() {
           <div className="wrapper">
             <h5>Café</h5>
             <p className="street">
-              Mediterráneo 92 <br></br> Barcelona 08013
+              Mediterráneo 92 <br></br> Barcelona, 08013
             </p>
             <p>Mon–Fri 8.30am–5.30pm </p>
             <p>Sat-Sun 10am–7pm</p>
@@ -51,7 +51,7 @@ export default function Footer() {
           <div className="wrapper">
             <h5>Roastery</h5>
             <p className="street">
-              Rumi 37 <br></br> Zaragoza 50007
+              Rumi 37 <br></br> Zaragoza, 50006
             </p>
             <p>Mon–Fri 8.30am–5.30pm </p>
             <p>Sat-Sun 10am–6pm</p>
@@ -64,7 +64,7 @@ export default function Footer() {
           <div className="wrapper">
             <h5>Store & Café</h5>
             <p className="street">
-              Sa Nura 91 <br></br> Ciudadela de Menorca 07760
+              Sa Nura 91 <br></br> Ciudadela, 07760
             </p>
 
             <p>Mon–Fri 8.30am–5.30pm </p>
@@ -83,7 +83,7 @@ export default function Footer() {
             className=" img-fluid"
           />
         </div>
-        <div className="col" id="coffeeBeans">
+        <div className="col" id="coffee-beans">
           <img
             src={coffeeBeans}
             alt="Earlybird Coffee Decaf"

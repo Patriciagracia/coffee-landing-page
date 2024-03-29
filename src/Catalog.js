@@ -11,7 +11,7 @@ export default function Catalog() {
   return (
     <div className="container catalog" id="shop">
       <div className="row">
-        <div className="col-6 text-center">
+        <div className="col-6" id="product">
           <img
             src={earlybirdCoffeeEspressoMediumRoast}
             alt="Espresso Medium Roast"
@@ -22,7 +22,7 @@ export default function Catalog() {
             Add - 15 €
           </button>
         </div>
-        <div className="col-6 text-center">
+        <div className="col-6" id="product">
           <img
             src={earlybirdCoffeeEspressoDecaf}
             alt="Earlybird Coffee Espresso Decaf"
@@ -35,7 +35,7 @@ export default function Catalog() {
         </div>
       </div>
       <div className="row">
-        <div className="col-6 text-center">
+        <div className="col-6" id="product">
           <img
             src={earlybirdCoffeeDecaf}
             alt="Earlybird Coffee Decaf"
@@ -46,7 +46,7 @@ export default function Catalog() {
             Add - 13 €
           </button>
         </div>
-        <div className="col-6 text-center">
+        <div className="col-6" id="product">
           <img src={earlybirdCoffeeFilter} alt="Filter" className="img-fluid" />
           <p>Special Filter</p>
           <button type="submit" className="btn btn-primary" id="btn-catalog">
@@ -55,7 +55,7 @@ export default function Catalog() {
         </div>
       </div>
       <div className="row">
-        <div className="col-6 text-center">
+        <div className="col-6" id="product">
           <img
             src={earlybirdCoffeeEspresso}
             alt="Espresso coffee"
@@ -66,7 +66,7 @@ export default function Catalog() {
             Add - 15 €
           </button>
         </div>
-        <div className="col-6 text-center">
+        <div className="col-6" id="product">
           <img
             src={earlybirdCoffeeFilterMediumRoast}
             alt="Filter Medium Roast"

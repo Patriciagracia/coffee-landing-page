@@ -1,12 +1,13 @@
 import React from "react";
+import "./styles/Hero.css";
 import HeroBackground from "./HeroBackground";
-import NavBar from "./NavBar";
 
 export default function Hero() {
   return (
-    <div className="Hero">
-      <NavBar />
+    <div className="hero">
       <HeroBackground />
+      <h1>COFFEE</h1>
+      <p id="shipping">Free shipping from 35€</p>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .navbar-collapse {
     position: fixed;
     top: 0;
@@ -11,4 +11,13 @@ a {
 }
 li.nav-item a {
   color: #ee3e3d;
+  overflow-x: hidden;
+}
+
+#nav-text {
+  padding: 0;
+}
+
+.navbar-content {
+  overflow-x: hidden;
 }

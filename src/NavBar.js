@@ -5,7 +5,7 @@ import AnimatedText from "./AnimatedText";
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid">
+      <div className="container-fluid" id="nav-text">
         <span>
           <AnimatedText />
         </span>
@@ -21,23 +21,25 @@ export default function NavBar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarText">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-end">
-            <li className="nav-link">
-              <a className="nav-item" aria-current="page" href="#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#shipping">
-                Shop
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contact">
-                Contact
-              </a>
-            </li>
-          </ul>
+          <div className="navbar-content">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-end">
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#shipping">
+                  Shop
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>

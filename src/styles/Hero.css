@@ -1,0 +1,19 @@
+@media (width <= 992px) {
+  h1 {
+    font-size: 56px !important;
+  }
+}
+
+h1 {
+  font-size: 230px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ee3e3d;
+  font-weight: 400;
+}
+
+p {
+  font-size: 17px;
+  text-align: center;
+  color: #ee3e3d;
+}

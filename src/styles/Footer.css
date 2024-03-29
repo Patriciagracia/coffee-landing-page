@@ -1,9 +1,9 @@
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   #barista,
   #coffees,
-  #coolcoffee,
-  #icedlatte,
-  #espressocup {
+  #cool-coffee,
+  #iced-latte,
+  #espresso-cup {
     display: none;
   }
 
@@ -13,7 +13,7 @@
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  #coffeeBeans {
+  #coffee-beans {
     display: none;
   }
 }
@@ -21,6 +21,10 @@
 .directions-media .col {
   padding: 0;
 }
+.directions-media.row {
+  margin-right: 0 !important;
+}
+
 #contact {
   margin-top: 20px;
   margin-bottom: 10px;
